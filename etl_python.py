@@ -16,7 +16,7 @@ def processar_temperaturas(path_do_txt: Path):
         _reader = reader(file, delimiter = ';')
         for row in _reader:
             nome_da_station, temperatura = str (row[0]), float(row[1])
-            temperatura_por_station[nome_da_station].append(temperatures)
+            temperatura_por_station[nome_da_station].append(temperatura)
            
     print("Data loaded. Calculating statistics...")
 
@@ -33,7 +33,7 @@ def processar_temperaturas(path_do_txt: Path):
     #Sorting results by station name
     sorted_results = dict(sorted(results.items()))
     
-    formatted_results = {station: f"{min_temp:.1f}/{mean_temp:1.f}/{max_temp:.1f}" for station, (min_temp, mean_temp, max_temp) in sorted_results.items()}
+    formatted_results = {station: f"{min_temp:.1f}/{mean_temp:1f}/{max_temp:.1f}" for station, (min_temp, mean_temp, max_temp) in sorted_results.items()}
     
     end_time = time.time() # end time
     print(f"Processing completed in {end_time - start_time:.2f} seconds")
