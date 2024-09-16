@@ -17,7 +17,7 @@ def create_duckcb():
     result.show()
     
     # Save the result to a Paquet file
-    result.write_parquet("data/measurements_summary.parquet")
+    result.write_parquet("data\\measurements_summary.parquet")
     
 if __name__ == "__main__":
     import time
