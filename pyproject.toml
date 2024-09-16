@@ -12,6 +12,8 @@ tqdm = "^4.66.5"
 duckdb = "^1.1.0"
 streamlit = "^1.38.0"
 pyspark = "^3.5.2"
+dask = "^2024.9.0"
+polars = "^1.7.1"
 
 
 [build-system]
