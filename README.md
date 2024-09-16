@@ -56,14 +56,14 @@ The challenge is to develop a Python program capable of reading this file and ca
 ## Dependencies
 To run the scripts in this project, you will need the following libraries:
 
-* python = "^3.12"
-* pandas = "^2.2.2"
-* tqdm = "^4.66.5"
-* duckdb = "^1.1.0"
-* streamlit = "^1.38.0"
-* pyspark = "^3.5.2"
-* dask = "^2024.9.0"
-* polars = "^1.7.1"
+* Python = `3.12`
+* Pandas = `2.2.2`
+* Tqdm = `4.66.5`
+* Duckdb = `1.1.0`
+* Streamlit = `1.38.0`
+* Pyspark = `3.5.2`
+* Dask = `2024.9.0`
+* Polars = `1.7.1`
 
 
 ## Results
