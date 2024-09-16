@@ -12,7 +12,12 @@ GROUP BY station
 ORDER BY station"""
 
 def create_duckcb():
-    duckdb.sql(query).show()
+    result = duckdb.sql(query)
+    
+    result.show()
+    
+    # Save the result to a Paquet file
+    result.write_parquet("data/measurements_summary.parquet")
     
 if __name__ == "__main__":
     import time
