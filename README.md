@@ -56,10 +56,15 @@ The challenge is to develop a Python program capable of reading this file and ca
 ## Dependencies
 To run the scripts in this project, you will need the following libraries:
 
-* Polars: `0.20.3`
-* DuckDB: `0.10.0`
-* Dask[complete]: `^2024.2.0`
-* Streamlit `^1.38.0`
+* python = "^3.12"
+* pandas = "^2.2.2"
+* tqdm = "^4.66.5"
+* duckdb = "^1.1.0"
+* streamlit = "^1.38.0"
+* pyspark = "^3.5.2"
+* dask = "^2024.9.0"
+* polars = "^1.7.1"
+
 
 ## Results
 The tests were conducted on a laptop equipped with an Apple M1 processor and 8GB of RAM. The implementations used pure Python, Pandas, Dask, Polars, and DuckDB approaches. The runtime results for processing the 1 billion-row file are presented below:
