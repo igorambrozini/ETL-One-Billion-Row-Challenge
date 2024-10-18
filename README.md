@@ -125,7 +125,7 @@ If you don't have `pv` installed, you can easily install it using your system's 
     ```
 
 ### Preparing the Script
-
+ 
 1. Grant execution permission to the script file. Open a terminal and run:
     
     ```bash
